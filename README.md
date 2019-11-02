@@ -36,4 +36,5 @@ python script/script.py
 - [ ] Utilizar corretamente os status code no servidro (200, 404, 500..)
 - [ ] Criar uma tabela para manter outras informações das fazendas
 - [ ] Escrever o Readme em ENG também
-
+- [ ] Refatorar o codigo
+- [ ] Remover variaveis de ambiente como URL de banco, etc.. Olhar o site https://12factor.net/
