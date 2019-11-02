@@ -58,3 +58,6 @@ python script/script.py
 - [ ] Refatorar o codigo duplicado
 - [ ] Remover variaveis de ambiente como URL de banco, etc.. Olhar o site https://12factor.net/
 - [ ] Criar uma camada de infra para colcoar coisas do banco de dados como, abrir session e connection com engine
+- [ ] Colocar um pre-commit, black e flake8
+- [ ] Travis CI colocar pipeline para rodar os testes
+- [ ] Realizar os plots no arquivo scripts/script.py
