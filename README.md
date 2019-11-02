@@ -23,6 +23,25 @@ Para rodar a aplicação:
 python app.py
 ```
 
+Para realizar post/get/put/delete
+```
+
+url post : http://localhost:8000/farm
+objeto: {"name": "FAZENDA_1", "latitude": -9.1, "longitude": -45.9333}
+
+url get by id: http://localhost:8000/farm
+obj : {"id": numero do id da fazenda}
+
+url put by id: http://localhost:8000/farm
+obj : {"id":id_da_fazenda, "name": "FAZENDA_2", "latitude": 2, "longitude": 20}
+
+url put by id: http://localhost:8000/farm
+{"id": numero_do_id_da_fazenda}
+
+url delete : http://localhost:8000/farm
+{"id": id_fazenda}
+
+```
 Na pasta scripts existe um script para tratamento dos dados
 python script/script.py
 
@@ -36,5 +55,6 @@ python script/script.py
 - [ ] Utilizar corretamente os status code no servidro (200, 404, 500..)
 - [ ] Criar uma tabela para manter outras informações das fazendas
 - [ ] Escrever o Readme em ENG também
-- [ ] Refatorar o codigo
+- [ ] Refatorar o codigo duplicado
 - [ ] Remover variaveis de ambiente como URL de banco, etc.. Olhar o site https://12factor.net/
+- [ ] Criar uma camada de infra para colcoar coisas do banco de dados como, abrir session e connection com engine

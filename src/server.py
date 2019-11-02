@@ -46,4 +46,4 @@ class ServerApp:
         tornado.ioloop.IOLoop.instance().start()
 
     def routers(self):
-        self.app = MyApplication([(r"/test", FarmAdpater, dict(db_session=db_session)), ], session=db_session)
+        self.app = MyApplication([(r"/farm", FarmAdpater, dict(db_session=db_session)), ], session=db_session)
