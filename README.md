@@ -61,3 +61,5 @@ python script/script.py
 - [ ] Colocar um pre-commit, black e flake8
 - [ ] Travis CI colocar pipeline para rodar os testes
 - [ ] Realizar os plots no arquivo scripts/script.py
+- [ ] Criar scrpit para fazer insert em massa
+- [ ] Editar o FarmAsyncModel para trabalhar com threadpool
